@@ -1,6 +1,6 @@
-package com.example.modid.mixin;
+package dev.dogie.genomesandgears.mixin;
 
-import com.example.modid.ExampleMod;
+import dev.dogie.genomesandgears.CreateGenomesAndGears;
 
 import net.minecraft.client.Minecraft;
 
@@ -15,6 +15,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MinecraftMixin {
 	@Inject(method = "<init>", at = @At("TAIL"))
 	private void example$init(GameConfig gameConfig, CallbackInfo ci) {
-		ExampleMod.LOGGER.info("Hello from {}", ExampleMod.NAME);
+		CreateGenomesAndGears.LOGGER.info("Hello from {}", CreateGenomesAndGears.NAME);
 	}
 }

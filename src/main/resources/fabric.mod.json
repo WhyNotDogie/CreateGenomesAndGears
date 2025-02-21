@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "id": "genomesandgears",
+  "version": "0.1.0",
+  "name": "Create: Genomes and Gears",
+  "description": "a create mod centered around microbiology and genetics with lots and lots of side quests including radiation and metallurgy ",
   "authors": [
-    "Me!"
+    "whynotdogie"
   ],
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/genomesandgears/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "dev.dogie.genomesandgears.CreateGenomesAndGears"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "genomesandgears.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
