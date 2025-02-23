@@ -1,4 +1,8 @@
 {
     "itemGroup.genomes_and_gears": "Genomes and Gears",
-    "item.genomesandgears.swab": "Swab"
+    "item.genomesandgears.swab": "Swab",
+    "item.genomesandgears.uv_electron_tube": "UV Electron Tube",
+    "item.genomesandgears.swab.tooltip.summary": "A simple swab used to collect samples from _players_, _plants_, and _mobs_.",
+    "item.genomesandgears.swab.tooltip.condition1": "When Used on player, plant or mob",
+    "item.genomesandgears.swab.tooltip.behaviour1": "Collects a sample from the _target_"
 }

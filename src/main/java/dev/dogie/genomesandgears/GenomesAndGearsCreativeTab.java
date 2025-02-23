@@ -13,10 +13,11 @@ public class GenomesAndGearsCreativeTab {
             BuiltInRegistries.CREATIVE_MODE_TAB,
             new ResourceLocation(CreateGenomesAndGears.ID, "genomes_and_gears_tab"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(CreateGenomesAndGears.SWAB)) // Change to your item
+                    .icon(() -> new ItemStack(CreateGenomesAndGears.SWAB))
                     .title(Component.translatable("itemGroup.genomes_and_gears"))
                     .displayItems((context, entries) -> {
-                        entries.accept(CreateGenomesAndGears.SWAB); // Add your items here
+                        entries.accept(CreateGenomesAndGears.SWAB);
+                        entries.accept(CreateGenomesAndGears.UVELECTRONTUBE);
                     })
                     .build()
     );

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "create:electron_tube"
+        },
+        {
+            "item": "minecraft:tinted_glass"
+        }
+    ],
+    "results": [
+        {
+            "item": "genomesandgears:uv_electron_tube"
+        }
+    ]
+}
